@@ -33,5 +33,5 @@ conda install nf-core   ← avoid this
 ### Verify installation
 ```bash
 nf-core --version
-nf-core list    # see all available pipelines
+nf-core pipeline list    # see all available pipelines
 ```
