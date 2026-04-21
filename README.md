@@ -15,3 +15,23 @@ curl -s https://get.nextflow.io | bash
 mv nextflow /usr/local/bin/
 nextflow -version
 ```
+
+## nf-core Installation
+
+### Recommended: pip (fast)
+```bash
+pip install nf-core
+nf-core --version
+```
+
+### Not recommended: conda (very slow, gets stuck)
+```bash
+# This takes very long and may get stuck:
+conda install nf-core   ← avoid this
+```
+
+### Verify installation
+```bash
+nf-core --version
+nf-core list    # see all available pipelines
+```
