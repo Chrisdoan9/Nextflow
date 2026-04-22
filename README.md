@@ -35,5 +35,3 @@ conda install nf-core   ← avoid this
 nf-core --version
 nf-core pipeline list    # see all available pipelines
 ```
-
-In Groovy, def means "define a variable of any type".
